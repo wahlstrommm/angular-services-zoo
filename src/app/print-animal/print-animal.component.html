@@ -1,0 +1,10 @@
+<section>
+  <ul>
+    <li>Namnet: {{ animal.name }}</li>
+    <li>Ålder: {{ animal.age }}</li>
+    <li>Flyga?: {{ animal.fly }}</li>
+    <li>Mjuk mat?: {{ animal.softFood }}</li>
+    <br />
+    <button (click)="feeding()">Mata {{ animal.name }}!</button>
+  </ul>
+</section>
